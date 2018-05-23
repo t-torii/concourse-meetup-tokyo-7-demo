@@ -4,6 +4,8 @@ metadata:
   name: myapp
   labels:
     app: myapp
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: 35.229.128.53
 spec:
   rules:
   - host: stage-myapp.example.local
